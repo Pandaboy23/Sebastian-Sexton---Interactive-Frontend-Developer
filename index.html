@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sebastian Sexton personal portfolio's website." />
+    <meta
+      name="description"
+      content="Sebastian Sexton personal portfolio's website."
+    />
     <!--Apple Meta Data-->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Sebastian Sexton - Interactive Frontend Developer" />
-    <meta name="google-site-verification" content="Vv6Ab5p4eW3hXGhlz5FEzlS7BAR-3yL3s6Hwt0XRTTs" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Sebastian Sexton - Interactive Frontend Developer"
+    />
+    <meta
+      name="google-site-verification"
+      content="Vv6Ab5p4eW3hXGhlz5FEzlS7BAR-3yL3s6Hwt0XRTTs"
+    />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!--Twitter Meta Data-->
     <meta property="og:site_name" content="Site Name" />
@@ -17,30 +28,92 @@
     <meta name="twitter:site" content="@Cyclop_panda" />
     <meta name="twitter:creator" content="@Cyclop_panda" />
     <meta name="twitter:url" content="#" />
-    <meta name="twitter:title" content="Sebastian Sexton - Interactive Frontend Developer" />
-    <meta name="twitter:description" content="Sebastian Sexton personal portfolio's website." />
+    <meta
+      name="twitter:title"
+      content="Sebastian Sexton - Interactive Frontend Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Sebastian Sexton personal portfolio's website."
+    />
     <meta name="twitter:image" content="#" />
-    <meta itemprop="name" content="Sebastian Sexton - Interactive Frontend Developer" />
-    <meta itemprop="description" content="Sebastian Sexton personal portfolio's website." />
+    <meta
+      itemprop="name"
+      content="Sebastian Sexton - Interactive Frontend Developer"
+    />
+    <meta
+      itemprop="description"
+      content="Sebastian Sexton personal portfolio's website."
+    />
     <meta itemprop="image" content="#" />
+    <!--Links-->
     <link rel="stylesheet" href="/Css/application.css" />
     <link rel="canonical" href="#" itemprop="url" />
     <title>Sebastian Sexton - Interactive Frontend Developer</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--Navbar-->
     <header>
-        <nav itemscope itemtype="http://schema.org/SiteNavigationElement" class="main-navigation">
-
-        </nav>
+      <nav
+        itemscope
+        itemtype="http://schema.org/SiteNavigationElement"
+        class="main-navigation"
+      >
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo"
+            >SS</a
+          >
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#projects" class="navbar__links">Past projects</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#experiments" class="navbar__links">Experiments</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Sebastian Sexton</h1>
-        </section>
-        <section></section>
+      <!--Hero-->
+      <section id="home">
+        <h1>Sebastian Sexton</h1>
+        <h3>Interactive Front-end Developer</h3>
+      </section>
+      <section id="projects">
+          <h1>Projects</h1>
+          <h3>Latest works</h3>
+      </section>
+      <section id="experiments">
+          <h1>Experiments</h1>
+          <h3>Code is fun!</h3>
+          <h6>Download my latest Codepens'</h6>
+      </section>
     </main>
-    <footer></footer>
-</body>
-
+    <footer>
+        <ul>
+            <li>
+                <a>Twitter</a>
+            </li>
+            <li>
+               <a>Github</a> 
+            </li>
+            <li>
+               <a>Linkedin</a> 
+            </li>
+            <li>
+                <a>Codepen</a>
+            </li>
+        </ul>
+    </footer>
+  </body>
 </html>
