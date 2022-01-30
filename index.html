@@ -49,6 +49,12 @@
     <!--Links-->
     <link rel="stylesheet" href="/Css/application.css" />
     <link rel="canonical" href="#" itemprop="url" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Sebastian Sexton - Interactive Frontend Developer</title>
   </head>
 
@@ -86,7 +92,7 @@
       <section class="hero-section" id="home">
         <h1>Sebastian Sexton</h1>
         <h3>Interactive Front-end Developer</h3>
-        <button id="hero-btn" >About me</button>
+        <button id="hero-btn">About me</button>
       </section>
       <section class="projects-section" id="projects">
         <h1>Projects</h1>
@@ -98,22 +104,48 @@
         <h6>Download my latest Codepens'</h6>
       </section>
     </main>
-    <footer class="footer">
-      <ul>
-        <li>
-          <a>Twitter</a>
-        </li>
-        <li>
-          <a>Github</a>
-        </li>
-        <li>
-          <a>Linkedin</a>
-        </li>
-        <li>
-          <a>Codepen</a>
-        </li>
-      </ul>
+    <footer itemscope itemtype="http://schema.org/WPFooter" class="footer">
+      <div class="content">
+        <a href="#top" data-scroll class="footer-logo no-smoothstate"><img src="icons/logo-white.svg"
+            alt="Sebastian Sexton's Personal Logo" />
+          <div class="footer-logo-top-label">
+            Top
+            <div class="footer-logo-top-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 31.479 31.479">
+                <path
+                  d="M26.477 10.274a1.112 1.112 0 0 1 0 1.587 1.12 1.12 0 0 1-1.571 0l-8.047-8.047v26.555c0 .619-.492 1.111-1.111 1.111a1.118 1.118 0 0 1-1.127-1.111V3.813L6.59 11.86c-.444.429-1.159.429-1.587 0a1.112 1.112 0 0 1 0-1.587L14.955.321a1.12 1.12 0 0 1 1.571 0l9.951 9.953z"
+                  fill="#1e201d"></path>
+              </svg>
+            </div>
+          </div>
+        </a>
+        <div class="inner-container text-center">
+          <ul class="footer-links">
+            <li>
+              <a href="https://twitter.com/CyclopPanda" target="_blank" rel="noopener"> <i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="https://it.linkedin.com/in/riccardozanutta" target="_blank" rel="noopener"> <i class="fab fa-linkedin-in"></i> Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/Riccardo-Zanutta" target="_blank" rel="noopener"> <i class="fab fa-linkedin-in"></i> Github</a>
+            </li>
+            <li>
+              <a href="http://codepen.io/rickzanutta/" target="_blank" rel="noopener"> <i class="fab fa-codepen"></i> Codepen</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-copy">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear() + " ");
+          </script>
+          sebastian Sexton - VAT 02847960305 -
+          <a href="mailto:sebastiansexton@gmail.com" class="no-smoothState">Contact</a>
+        </div>
+      </div>
     </footer>
   </body>
-  <script src="/Js/application.js"></script>
+  <script  src="/Js/application.js"></script>
+  <script src="https://kit.fontawesome.com/b3a89af63a.js" crossorigin="anonymous"></script>
 </html>
